@@ -116,7 +116,7 @@ class Main extends Sprite
 		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onCrash);
 
 		#if (html5 || neko)
-		framerate = 60;
+		framerate = 90;
 		#end
 
 		// simply said, a state is like the 'surface' area of the window where everything is drawn.
